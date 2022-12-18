@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="158dp"
+        android:src="@drawable/download"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+    <Button
+        android:id="@+id/bttnLogIn"
+        android:layout_width="129dp"
+        android:layout_height="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="Log In" />
+
+    <Button
+        android:id="@+id/edtt_signup"
+        android:layout_width="122dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/bttnLogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:text="Sign Up" />
+
+
+
+</RelativeLayout>

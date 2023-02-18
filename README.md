@@ -14,6 +14,8 @@ Kotlin and Android Studio
 ## Dependencies
 
 implementation platform('com.google.firebase:firebase-bom:30.3.2')
+
 implementation 'com.google.firebase:firebase-auth-ktx:21.0.8'
+
 implementation 'com.google.firebase:firebase-database-ktx:20.0.6'
 
